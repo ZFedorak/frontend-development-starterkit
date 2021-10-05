@@ -1,12 +1,20 @@
-import header from "./components/header/header"
-import button from "./components/button/button"
+import link from "./components/ui/link";
+import levelHeading from "./components/ui/levelHeading";
+import button from "./components/ui/button";
+const homePage = function (){
+  const pageHeader = document.createElement('levelHeader')
+}
 
-const app = document.querySelector('#app')
+export default homePage
+//import header from "./components/header/header"
+//import button from "./components/button/button"
+
+//const app = document.querySelector('#app')
 
 //app.appendChild(header("To Do List App"))
 
 
-app.appendChild(button('click me'))
+//app.appendChild(button('click me'))
 // reference to the APP container
 // element document.createElement
 // `` template literal syntax
